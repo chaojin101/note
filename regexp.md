@@ -11,6 +11,5 @@
 | `+`     | 1 or more repetitions                          | `a+b`            | "ab", "aaab" but not "b"                     |       |                |
 | `?`     | 0 or 1 repetition (optional)                   | `colou?r`        | "color", "colour"                            |       |                |
 | `[]`    | Any one character inside brackets              | `[abc]`          | "a", "b", or "c" but not "d"                 |       |                |
-| \`      | \`                                             | OR (alternation) | \`cat                                        | dog\` | "cat" or "dog" |
 | `()`    | Grouping                                       | `(ab)+`          | "ab", "abab", "ababab"                       |       |                |
 | `\b`    | Word boundary (start or end of word)           | `\bword\b`       | Matches "word" in "a word here", not "sword" |       |                |
